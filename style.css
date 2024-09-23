@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    background: linear-gradient(#92cea8, #3e437b);
+  }
+  header{
+    background: (#92cea8, #3e437b)
+    padding: 25px;
+    margin-bottom: 15px;
+  }
+  label{
+    font-size: 20px;
+    font-family: Courier ;
+  }
+  select{
+    font-family: Courier ;
+    font-size: 18px;
+  }
+  input{
+    font-family: monospace;
+    font-size: 20px;
+  }
+  button{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: monospace;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .outputBox{
+    padding: 10px;
+    min-height: 160px;
+    width: 60%;
+    outline-color: lightseagreen;
+    outline-style: solid;
+  }
+  

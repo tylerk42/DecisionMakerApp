@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Shoe Selection Helper</h1>
+		<p>Enter some basic information about what you want so we can find your perfect shoe!</p>
+	</header>
+
+	<center>
+		<label>Brand: </label>
+    <select id="Brand">
+      <option value="Nike">Nike</option>
+      <option value="Adidas">Adidas</option>
+      <option value="Under Armour">Under Armour</option>
+    </select>
+    <br>
+    <br>
+
+    <label>Type: </label>
+    <select id="Type">
+      <option value="Basketball">Basketball</option>
+      <option value="Cleats">Cleats</option>
+      <option value="Running">Running</option>
+      <option value="Style">Style</option>
+      <option value="Comfort">Comfort</option>
+    </select>
+    <br>
+    <br>
+
+   <label> Price: $</label> <label id="sliderVal">160 </label> <input oninput="showPrice()" type="range" min="20" max="300" value="160" class="slider" id="price">
+   
+
+    <br>
+    <br>
+
+
+    <button onclick="getTicket()">Create My Ticket!</button>
+
+    <div class="outputBox">
+      <h2>Admit One</h2>
+  	  <img width="20%"src="qr.png">
+		  <p id="output"> </p>
+	  </div>
+
+  </center>
+    <script src="script.js"></script>
+  </body>
+</html>
