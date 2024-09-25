@@ -35,21 +35,20 @@
     <br>
     <br>
 
-   <label> Price: $</label> <label id="sliderVal">160 </label> <input oninput="showPrice()" type="range" min="20" max="300" value="160" class="slider" id="price">
+   <label> Price: $</label> <label id="sliderVal">180 </label> <input oninput="showPrice()" type="range" min="60" max="300" value="160" class="slider" id="Price">
    
 
     <br>
     <br>
 
 
-    <button onclick="getTicket()">Create My Ticket!</button>
+    <button onclick="showShoe()">Find My Shoe!</button>
 
     <div class="outputBox">
-      <h2>Admit One</h2>
-  	  <img width="20%"src="qr.png">
+        <p id="feedback"> </p>
+  	  <img width="100%"src="" id="image">
 		  <p id="output"> </p>
 	  </div>
-
   </center>
     <script src="script.js"></script>
   </body>
