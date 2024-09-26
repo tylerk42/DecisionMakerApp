@@ -69,7 +69,7 @@ function findShoe(brand,type,price){
     }
     else if (price<=120&&brand=="Adidas"&&type=="Running"){
         document.getElementById("image").src="supernova strides.jpeg"
-        feedback="Supernova Stirde";
+        feedback="Supernova Stride";
     }
     else if (price>=120&&brand=="Adidas"&&type=="Running"){
         document.getElementById("image").src="ultraboost 1.0s.jpeg"
