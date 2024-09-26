@@ -1,13 +1,43 @@
-body {
-    background: rgb(70, 94, 128);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-p{
-    color: rgba(247, 234, 234, 0.553);
-}
-
-/* This section only affects the paragraph tag */
-h1{
-    color: rgb(0, 0, 0) ;
-}
+body{
+    font-family: monospace;
+ 
+  }
+  header{
+    background: linear-gradient(#1ee266, #3e48b6);
+    padding: 25px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+  }
+  label{
+    font-size: 20px;
+    
+    font-family: Courier ;
+  }
+  select{
+    font-family: Courier ;
+    font-size: 18px;
+  }
+  input{
+    font-family: Courier;
+    font-size: 20px;
+  }
+  button{
+    background: linear-gradient(#1ee266, #3e48b6);
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: Courier;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .outputBox{
+    padding: 10px;
+    min-height: 160px;
+    width: 60%;
+    background: linear-gradient(#ffffff, #ffffff);
+    outline-style: solid;
+    font-size: 30px;
+    font-family:Courier;
+    
+  }
+  
